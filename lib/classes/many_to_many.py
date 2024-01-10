@@ -129,7 +129,7 @@ class Result:
     # Object Relationship Methods and Properties
     ############################################
 
-    # Result property player
+    # Result property player    
     # Returns the player object for that result
     # Must be of type Player
 
@@ -138,9 +138,9 @@ class Result:
         return self._player
 
     @player.setter
-    def player(self, player):
-        if isinstance(player, Player):
-            self._player = player
+    def player(self, player):''
+    if isinstance(player, Player):
+        self._player = player
 
     # Result property game
     # Returns the game object for that result
